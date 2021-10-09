@@ -29,11 +29,11 @@ componentDidMount(){
  BellIconWithBadge=()=>{
     return(
       <View>
-        <Icon name='bars' 
+        <Icon name='bell' 
               type='font-awesome' 
               color='#696969' 
               size={25}
-              onPress={() =>this.props.navigation.navigate('Setting')}
+              onPress={() =>this.props.navigation.navigate('NotificationScreen.js')}
         />
         <Badge value={this.state.value}
                containerStyle={{ position: 'relative', top: -4, right: -4 }}
